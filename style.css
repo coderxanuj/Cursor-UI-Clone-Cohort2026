@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #13120a;
+    color: #F7F7F4;
+}
+
+:root {
+    --font-main: 'Geist', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+body {
+    font-family: var(--font-main);
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+/* Navbar Logo */
+.nav-logo {
+    height: 24px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+/* Navbar Links */
+.nav-link-box {
+    width: 30%;
+}
+
+.nav-links {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 0.9rem;
+    font-weight: 400px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.nav-links>li>a {
+    text-decoration: none;
+    /* margin-left: 50px; */
+}
+
+
+/* Navbar Buttons */
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.sign-in {
+    cursor: pointer;
+    padding: 7px 12px 7px 12px;
+    border-radius: 30px;
+    border: 1px solid rgb(100, 99, 99);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.download {
+    cursor: pointer;
+    background-color: rgb(240, 235, 235);
+    color: black;
+    padding: 7px 12px 7px 12px;
+    border-radius: 30px;
+    border: 1px solid rgb(100, 99, 99);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Hero Section */
+
+#hero {
+    letter-spacing: 0.2px;
+}
+
+.container {
+    margin-top: 120px;
+}
+
+.container>p {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.hero-download {
+    margin-left: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: rgb(240, 235, 235);
+    color: black;
+    padding: 12px 18px 12px 18px;
+    border-radius: 30px;
+    border: 1px solid rgb(100, 99, 99);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img>img {
+    margin-left: 40px;
+    margin-top: 85px;
+    height: 620px;
+    width: 1280px;
+}
+
+
+/* Trust Section */
+
+.trusted-by {
+    /* display: flex; */
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.trusted-company {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 25px;
+}
+
+.company-logo {
+    background: #18160d;
+}
+
+.trusted-log {
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* Feature Section */
+
+
+.feature-layout {
+    margin-left: 50px;
+}
+
+.containerr {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    gap: 0px;
+    background-color: #18160d;
+    margin-bottom: 100px;
+}
+
+/* Left Section */
+.content-left {
+    flex: 1;
+    /* Takes up 50% */
+    background-color: #18160d;
+    /* width: 50px; */
+    margin-left: 20px;
+}
+
+.content-left h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    background-color: #18160d;
+    
+
+}
+
+.content-left p {
+    color: #a1a1a1;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    background-color: #18160d;
+    width: 500px;
+}
+
+.cta {
+    color: #ff4d00;
+    /* Orange accent color */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #18160d;
+}
+
+/* Right Section */
+.content-right {
+    flex: 1;
+    margin: 10px;
+}
+
+.content-right img {
+    width: 700px;
+    height: 600px;
+    border-radius: 12px;
+}
